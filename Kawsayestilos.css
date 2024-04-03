@@ -1,0 +1,99 @@
+body {
+  background-image: url(./Images/kawsai\ fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic", sans-serif;
+  /* Agrega otros estilos según necesites */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.bg-vinotinto-opacity {
+  background-color: rgba(141, 44, 19, 0.9);
+}
+
+.bg-vinotinto {
+  background-color: #8D2C13;
+}
+
+.text-amarillo {
+  color: #F3A108;
+  /* Color de texto amarillo */
+}
+
+.text-vinotinto {
+  color: #8D2C13;
+}
+
+.text-blanco {
+  color:white;
+  /* Color de texto amarillo */
+}
+
+.text-black {
+  color: black;
+}
+
+.custom-menu {
+  z-index: 9999;
+}
+
+.container p.text-justify {
+  text-align: justify;
+}
+
+
+.embed-responsive-4by3 iframe {
+  width: 500px;
+  height: 280px;
+}
+
+
+
+.containermover {
+  position: relative;
+  width: auto; /* Ajusta el ancho según tu diseño */
+}
+
+.character-container {
+  position: relative;
+  text-align: center;
+}
+
+.character-circle {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 25%;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #F3A108; /* Cambia el color de fondo */
+  border: none; /* Quita el borde */
+  border-radius: 20px; /* Puntas redondas */
+  color: white; /* Cambia el color del texto */
+  font-family: "Century Gothic", sans-serif; /* Cambia la tipografía */
+  font-size: 16px; /* Cambia el tamaño del texto si es necesario */
+  padding: 10px 20px; /* Ajusta el espaciado interno si es necesario */
+  margin-right: 10px; /* Espacio entre los botones */
+}
+
+button:hover {
+  background-color: #FFD700; /* Cambia el color de fondo cuando pasas el mouse */
+}
+
+.video-button { margin: 5px;}

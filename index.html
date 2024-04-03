@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web</title>
+  <!-- Enlace a los estilos de Bootstrap 5.3.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="./Kawsayestilos.css">
+</head>
+
+<body>
+  <!-- Barra de menú -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-vinotinto custom-menu">
+    <a class="navbar-brand" href="#">
+      <img src="./Images/Logo_Kawsay fondo oscuro.png" alt="Logo" width="200">
+    </a>
+    <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Agregamos la clase 'collapse navbar-collapse' para el menú colapsable en dispositivos móviles -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#kawsay">Kawsay</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#comic">Comic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#personajes">Personajes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#creditos">Créditos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images/Banner_Capitulo 1-01.jpg" class="d-block w-100" alt="Banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/Banner promocionar-03.jpg" class="d-block w-100" alt="Banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/Banner_Capitulo 2-02.jpg" class="d-block w-100" alt="Banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Sección de Kawsay -->
+  <section id="kawsay" class="py-5">
+    <div class="container text-center text-light">
+      <h2 class="text-amarillo">Kawsay</h2>
+
+      <p class="text-justify">Kawsay representa el bienestar y el equilibrio que queremos dar a nuestros usuarios a
+        través de los aplicativos multimediales con adaptabilidad, empatía, disponibilidad y visión
+        hacia un futuro digno.
+        Kawsay es una palabra de origen indígena que hace referencia a una vida digna y en
+        equilibrio con el universo y el ser humano. El trisquel, es el símbolo supremo de los
+        druidas, según la cultura Celta, símbolo sagrado y mágico que para ellos representaba el
+        aprendizaje, el pasado, el presente y el futuro.
+        El símbolo y la palabra forman un triángulo que también transmite equilibrio.
+      </p>
+      <h2 class="text-amarillo">Sinopsis</h2>
+
+      <p class="text-justify">El profesor Kawsay es un robot Super héroe llegado del planeta Fit para balancear la
+        nutrición del planeta
+        tierra, su planeta Fit es el encargado de proteger el universo de los malos hábitos de nutrición, por ello ha
+        estado en guerra con el planeta Fat que se dedican a conseguir soldados jóvenes adoctrinándolos con el poder de
+        la malnutrición.
+
+        El rey del planeta Fat es el poderoso y muy groso villano Malnutrión un extraño ser gordo, feo, grotesco con
+        aspecto brillante y grasoso que apenas puede moverse con sus malos hábitos de nutrición quiere apoderarse de
+        todo el universo y que todos los seres vivos se vuelvan obesos.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sección de Comic -->
+  <section id="comic" class="py-5 text-white bg-vinotinto-opacity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center text-amarillo">Comic</h2>
+          <h2 class="text-center text-blanco">Capitulo 1</h2>
+        </div>
+        <div class="col-md-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video1" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401073004.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/1</h4>
+                  <p>El Malvado Malnutrión tiene un plan para conquistar el universo.</p>
+                </div>
+              </div>
+              <!-- Repite este bloque si deseas duplicar más videos -->
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video2" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401073421.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/2</h4>
+                  <p>Timmy camina por la calle donde lo asusta un secuas de Malnutrión, el malvado Botellón.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video3" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401073817.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/3</h4>
+                  <p>Botellón muy alegre y pícaro le ofrece a Timmy su primer víctima, la famosa "Loca-cola".</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video4" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401074017.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/4</h4>
+                  <p>Marta enciende el TV y ve en las noticias, algo demasiado preocupante.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video5" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401074158.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/5</h4>
+                  <p>Timmy llega enfermo a su casa, con mucho dolor de estómago.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video6" class="mx-auto d-block">
+                    <source src="./Video/lv_0_20240401092056.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/6</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video7" class="mx-auto d-block">
+                    <source src="./Video/7.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/7</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video8" class="mx-auto d-block">
+                    <source src="./Video/8.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/8</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video9" class="mx-auto d-block">
+                    <source src="./Video/9.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/9</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video10" class="mx-auto d-block">
+                    <source src="./Video/10.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/10</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video11" class="mx-auto d-block">
+                    <source src="./Video/11.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/11</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video12" class="mx-auto d-block">
+                    <source src="./Video/12.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/12</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video13" class="mx-auto d-block">
+                    <source src="./Video/13.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/13</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+
+              </div> <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video14" class="mx-auto d-block">
+                    <source src="./Video/14.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 1/14</h4>
+                  <p>Marta está muy preocupada por su hijo Timmy.</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Botones interactivos -->
+      <div class="row mt-3">
+        <div class="col-md-12 text-center">
+          <button class="video-button" onclick="playVideo('video1')">Play Capitulo 1/1</button>
+          <button class="video-button" onclick="playVideo('video2')">Play Capitulo 1/2</button>
+          <button class="video-button"onclick="playVideo('video3')">Play Capitulo 1/3</button>
+          <button class="video-button"onclick="playVideo('video4')">Play Capitulo 1/4</button>
+          <button class="video-button"onclick="playVideo('video5')">Play Capitulo 1/5</button>
+          <button class="video-button"onclick="playVideo('video6')">Play Capitulo 1/6</button>
+          <button class="video-button"onclick="playVideo('video7')">Play Capitulo 1/7</button>
+          <button class="video-button"onclick="playVideo('video8')">Play Capitulo 1/8</button>
+          <button class="video-button"onclick="playVideo('video9')">Play Capitulo 1/9</button>
+          <button class="video-button"onclick="playVideo('video10')">Play Capitulo 1/10</button>
+          <button class="video-button"onclick="playVideo('video11')">Play Capitulo 1/11</button>
+          <button class="video-button"onclick="playVideo('video12')">Play Capitulo 1/12</button>
+          <button class="video-button"onclick="playVideo('video13')">Play Capitulo 1/13</button>
+          <button class="video-button"onclick="playVideo('video14')">Play Capitulo 1/14</button>
+          <!-- Repite este bloque si deseas más videos -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sección de Comic -->
+  <section id="comic2" class="py-5 text-white bg-vinotinto-opacity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center text-blanco">Capitulo 2</h2>
+        </div>
+        <div class="col-md-12">
+          <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video15" class="mx-auto d-block">
+                    <source src="./Video/15.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/1</h4>
+                  <p>Botellón busca ayuda de sus aliados</p>
+                </div>
+              </div>
+              <!-- Repite este bloque para más videos -->
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video16" class="mx-auto d-block">
+                    <source src="./Video/16.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/2</h4>
+                  <p>Kawsay se enfreta a los tres secuaces de Malnutrión</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video17" class="mx-auto d-block">
+                    <source src="./Video/17.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/3</h4>
+                  <p>Marta prepara una deliciosa comida</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video18" class="mx-auto d-block">
+                    <source src="./Video/18.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/4</h4>
+                  <p>Marta le da de comer a Timmy para que se sienta mejor</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video19" class="mx-auto d-block">
+                    <source src="./Video/19.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/5</h4>
+                  <p>Timmy ya se siente mejor</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video20" class="mx-auto d-block">
+                    <source src="./Video/20.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/6</h4>
+                  <p>Timmy distrae a los secuaces</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video21" class="mx-auto d-block">
+                    <source src="./Video/21.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/7</h4>
+                  <p>Kawsay come lo que Marta le preparó</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video22" class="mx-auto d-block">
+                    <source src="./Video/22.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/8</h4>
+                  <p>Kawsay derrota a dos de los secuaces</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video23" class="mx-auto d-block">
+                    <source src="./Video/23.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="video-description mt-3 text-center">
+                  <h4>Capitulo 2/9</h4>
+                  <p>Botellón cree que Timmy será su aliado</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Botones interactivos -->
+      <div class="row mt-3">
+        <div class="col-md-12 text-center">
+          <button class="video-button" onclick="playVideo('video15')">Play Capitulo 2/1</button>
+          <button class="video-button"onclick="playVideo('video16')">Play Capitulo 2/2</button>
+          <button class="video-button"onclick="playVideo('video17')">Play Capitulo 2/3</button>
+          <button class="video-button"onclick="playVideo('video18')">Play Capitulo 2/4</button>
+          <button class="video-button"onclick="playVideo('video19')">Play Capitulo 2/5</button>
+          <button class="video-button"onclick="playVideo('video20')">Play Capitulo 2/6</button>
+          <button class="video-button"onclick="playVideo('video21')">Play Capitulo 2/7</button>
+          <button class="video-button"onclick="playVideo('video22')">Play Capitulo 2/8</button>
+          <button class="video-button"onclick="playVideo('video23')">Play Capitulo 2/9</button>
+          <!-- Repite este bloque si deseas más botones -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección de Personajes -->
+  <section id="personajes" class="py-5 text-white">
+    <div class="container">
+      <div class="containermover">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-vinotinto">Personajes</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="kawsayprofe">
+                <img src="./Images/Personajes-04.png" alt="Personaje 1" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Kawsay</h4>
+                <p class="text-black text-justify">Superhéroe proveniente del planeta Fit, que lucha contra la
+                  malnutrición y se asegura de que cada niño tenga una alimentación saludable y nutritiva.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="malnutrionmover">
+                <img src="./Images/Personajes-05.png" alt="Personaje 2" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Malnutrion</h4>
+                <p class="text-black text-justify">El rey del planeta Fat, un poderoso y muy groso villano, es un
+                  extraño
+                  ser gordo y feo, que quiere que los niños se vuelvan como el.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="doñamarta">
+                <img src="./Images/Personajes-03.png" alt="Personaje 3" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Doña Marta</h4>
+                <p class="text-black text-justify">Madre cabeza de familia, de 34 años de edad, que se preocupa mucho
+                  por
+                  su hijo Timmy y siempre quiere lo mejor para él.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección de Personajes -->
+  <section id="personajes" class="py-5 text-white">
+    <div class="container">
+      <div class="containermover">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="kawsayprofe">
+                <img src="./Images/Personajes-06.png" alt="Personaje 1" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Timmy</h4>
+                <p class="text-black text-justify">Es el hijo de Marta, un niño de 8 años, un pequeño travieso y muy
+                  curioso.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="malnutrionmover">
+                <img src="./Images/Personajes_Mesa de trabajo 1.png" alt="Personaje 2" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Botellon</h4>
+                <p class="text-black text-justify">Uno de los secuaces de Malnutrión, y el primero que ataca a Timmy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="character-container">
+              <div class="character-circle" id="doñamarta">
+                <img src="./Images/Personajes-02.png" alt="Personaje 3" class="img-fluid rounded">
+              </div>
+              <div class="character-description">
+                <h4 class="text-vinotinto">Embutidines</h4>
+                <p class="text-black text-justify">Este es largo y respresenta los embutidos, también es un secuas del
+                  Malvado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Créditos -->
+  <section id="creditos" class="py-5 text-white bg-vinotinto-opacity">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-amarillo">Créditos</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="./Images/Creadores_Mesa de trabajo 1.png" alt="Crédito 1" class="img-fluid rounded">
+          <div class="credit-description">
+            <h4>Emmanuel Arboleda</h4>
+            <p>Ilustrador</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./Images/Creadores-02.png" alt="Crédito 2" class="img-fluid rounded">
+          <div class="credit-description">
+            <h4>Daniel Ortega</h4>
+            <p>Diseñador Gráfico</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./Images/Creadores-03.png" alt="Crédito 2" class="img-fluid rounded">
+          <div class="credit-description">
+            <h4>Isabela Palacio</h4>
+            <p>Directora Creativa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página (Redes sociales y logo) -->
+  <footer id="piedepaginaok" class="text-light text-center py-4 bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <!-- Redes Sociales -->
+            <div class="col-md-6">
+              <div class="d-flex justify-content-center justify-content-md-start scroll-animate">
+                <a href="https://www.facebook.com/profile.php?id=61556527756242" class="mr-5 text-decoration-none">
+                  <i class="bi bi-facebook text-dark">@Kawsay</i>
+                </a>
+                <a href="https://www.instagram.com/kawsay.proyecto_/" class="mr-5 text-decoration-none">
+                  <i class="bi bi-instagram text-dark">@Kawsay</i>
+                </a>
+              </div>
+              <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+            </div>
+            <!-- Logo -->
+            <div class="col-md-6 text-md-right mt-3 mt-md-0 scroll-animate">
+              <img src="./Images/Logo_Kawsay.png" alt="Logo" width="300">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Enlace a los scripts de Bootstrap (jQuery y Popper.js) -->
+  <script src="./java.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
